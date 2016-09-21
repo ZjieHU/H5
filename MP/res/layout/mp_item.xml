@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/heng"
+        android:layout_width="wrap_content"
+        android:layout_height="10px" >
+    </TextView>
+
+        <TextView
+        android:id="@+id/ID"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/URL"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="36px" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="36px" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="36px" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/heng2"
+        android:layout_width="wrap_content"
+        android:layout_height="10px" >
+    </TextView>
+
+</LinearLayout>

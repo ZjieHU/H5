@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:apiKey="none"
+        android:clickable="true" >
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"
+       >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/share"
+        >
+    </Button>
+
+</RelativeLayout>
